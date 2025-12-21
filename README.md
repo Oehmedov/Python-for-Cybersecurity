@@ -2,42 +2,42 @@
 
 Step-by-step explanation:
 
-Import libraries
+1. Import libraries
 
-requests → sends HTTP requests to Amazon
+  a) requests → sends HTTP requests to Amazon
 
-BeautifulSoup → parses HTML content
+  b) BeautifulSoup → parses HTML content
 
-time → delays execution
+  c) time → delays execution
 
-datetime → logs time of price checks
+  d) datetime → logs time of price checks
 
-Set product URL
+2. Set product URL
 
-The user pastes the Amazon product link they want to track
+  a) The user pastes the Amazon product link they want to track
 
-Use HTTP headers
+3. Use HTTP headers
 
-Prevents Amazon from blocking the request
+  a) Prevents Amazon from blocking the request
 
-Mimics a real browser
+  b) Mimics a real browser
 
-Fetch product page
+4. Fetch product page
 
-requests.get() downloads the webpage
+  a) requests.get() downloads the webpage
 
-Parse HTML
+5. Parse HTML
 
-BeautifulSoup extracts product title and price
+  a) BeautifulSoup extracts product title and price
 
-Display results
+6. Display results
 
-Prints title, price, and timestamp
+  a) Prints title, price, and timestamp
 
-Save data
+7. Save data
 
-Appends price history to price_log.txt
+  a) Appends price history to price_log.txt
 
-Loop execution
+8. Loop execution
 
-Script checks price every hour automatically
+  a) Script checks price every hour automatically
